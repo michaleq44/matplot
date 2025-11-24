@@ -1,0 +1,1 @@
+# math plotter in Qt6
