@@ -12,6 +12,8 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
+set(QT_FORCE_CMP0156_TO_VALUE NEW)
+
 include_directories(inc)
 qt_add_executable(matplot src/main.cpp src/window.cpp
     inc/main.hpp inc/window.hpp
